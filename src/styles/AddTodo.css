@@ -1,0 +1,104 @@
+.add__todo {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.type__todo {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.add__todo__button {
+  display: flex;
+}
+
+.title {
+  width: 606px;
+  height: 28px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+
+.add__new__button {
+  background-color: #075985;
+  width: 94px;
+  height: 36px;
+  color: white;
+  border-radius: 8px;
+  font-size: 14px;
+  padding: 8px 16px 8px 16px;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.delete__button {
+  border: none;
+  background: none;
+  color: #be123c;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  margin-left: 32px;
+  cursor: pointer;
+}
+
+.input__todo {
+  width: 600px;
+  height: 40px;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+::placeholder {
+  color: #d6d3d1;
+}
+
+.cancel__button {
+  border: none;
+  background: none;
+  color: #0369a1;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  margin-right: 32px;
+  cursor: pointer;
+}
+
+.create__todo__button {
+  background-color: #075985;
+  width: 94px;
+  height: 36px;
+  color: white;
+  border-radius: 8px;
+  font-size: 14px;
+  padding: 8px 16px 8px 16px;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.empty__alert {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+
+  /* rose/600 */
+
+  color: #e11d48;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
