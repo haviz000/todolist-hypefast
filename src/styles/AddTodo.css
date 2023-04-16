@@ -102,3 +102,38 @@
   order: 0;
   flex-grow: 0;
 }
+
+/* Mobile styles */
+@media screen and (max-width: 767px) {
+  .add__todo {
+    justify-content: space-between;
+    padding: 16px;
+  }
+
+  .add__todo__button {
+    padding-left: 50%;
+  }
+
+  .title {
+    width: 100%;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .add__new__button, .delete__button, .cancel__button, .create__todo__button {
+    font-size: 12px;
+    height: 32px;
+    padding: 4px 8px;
+    margin: 8px;
+  }
+
+  .input__todo {
+    margin-left: 90%;
+  }
+
+  .empty__alert {
+    font-size: 10px;
+    line-height: 12px;
+    margin: 8px 0;
+  }
+}

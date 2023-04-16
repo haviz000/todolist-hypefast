@@ -7,3 +7,15 @@
 .app__wrapper {
   width: 800px;
 }
+
+/* Mobile styles */
+@media screen and (max-width: 767px) {
+  .container {
+    height: auto;
+  }
+  
+  .app__wrapper {
+    width: 100%;
+    padding: 16px;
+  }
+}
